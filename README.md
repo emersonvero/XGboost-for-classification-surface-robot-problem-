@@ -1,1 +1,3 @@
 # XGboost-for-classification-surface-robot-problem-
+
+The case focuses on developing a machine learning model to classify surface types using sensor-based time series data. After preprocessing and feature engineering — including the creation of statistical and derived features — different approaches were evaluated, including a neural network model. However, the main model applied was XGBoost, chosen for its strong performance on tabular data and ability to capture complex non-linear patterns. Through hyperparameter optimization, XGBoost effectively extracted relevant signal information and achieved solid performance, evaluated using metrics such as accuracy and F1-score, demonstrating good generalization to unseen data.
